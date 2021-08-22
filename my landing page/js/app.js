@@ -104,6 +104,7 @@ buttonUp.addEventListener("click",function(event){
 
  //make navigation bar sticky on scrolling then hide it if not scrolling.....................
 let scrolling;
+
 window.onscroll=function(){
     navBar.className = "sticky";
 
